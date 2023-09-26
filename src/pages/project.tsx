@@ -67,7 +67,7 @@ const Projects = ({ studys }: any) => {
             <TfiArrowCircleUp
               onClick={MoveToTop}
               className="cursor-pointer transform transition duration-500 hover:scale-125 hover:shadow-xl shadow-xl"
-              size="28"
+              size="30"
             />
           </div>
         )}
