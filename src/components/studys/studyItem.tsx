@@ -31,11 +31,8 @@ const StudyItem = ({ data }: any) => {
           참고 블로그
         </a>
         <div className="flex items-start mt-2">
-          {tag.map((item: any) => (
-            <h1
-              key={tag.id}
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 w-30"
-            >
+          {tag.map((item: any, idx: number) => (
+            <h1 key={idx} className="px-2 py-1 mr-2 rounded-md bg-sky-200 w-30">
               {item.name}
             </h1>
           ))}

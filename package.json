@@ -14,10 +14,12 @@
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
     "axios": "^1.5.0",
+    "lodash": "^4.17.21",
     "next": "12.1.6",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
     "react-lottie-player": "^1.5.5",
     "typescript": "5.2.2"
   },
