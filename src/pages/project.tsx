@@ -18,7 +18,7 @@ const Projects = ({ studys }: any) => {
       // eslint-disable-next-line sonarjs/no-collapsible-if
       if (
         window.scrollY + document.documentElement.clientHeight >
-        document.documentElement.scrollHeight - 100
+        document.documentElement.scrollHeight - 90
       ) {
         if (len > 0) {
           setLoading(true);
