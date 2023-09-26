@@ -18,7 +18,7 @@ export default function Home() {
               개인적으로 스터디한걸 취준생 분들 또는 개인 스터디 하시는 분들에게
               조금이나마 도움드리고자 만들게 됐습니다. 종종 제가 공부한 부분을
               현재 프로젝트에 올릴 계획입니다. 도움이 됐으면 좋겠습니다." "
-              행복하세요!^^
+              감사합니다!
             </p>
             <div className="flex justify-center">
               <Link href="/project">
