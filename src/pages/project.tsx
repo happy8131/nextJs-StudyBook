@@ -3,6 +3,7 @@ import axios from "axios";
 import StudyItem from "../components/studys/studyItem";
 import { useEffect, useState } from "react";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { TfiArrowCircleUp } from "react-icons/tfi";
 
 const lodash = require("lodash");
 
@@ -37,6 +38,11 @@ const Projects = ({ studys }: any) => {
     };
   }, [page]);
 
+  const MoveToTop = () => {
+    // top:0 >> 맨위로  behavior:smooth >> 부드럽게 이동할수 있게 설정하는 속성
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen px-5 mb-10 px-6">
@@ -53,6 +59,15 @@ const Projects = ({ studys }: any) => {
             <AiOutlineLoading3Quarters
               className="rounded-t-lg mt-9 ml-3 animate-spin"
               size={30}
+            />
+          </div>
+        )}
+        {!loading && (
+          <div className="h-full flex justify-center text-lg font-normal">
+            <TfiArrowCircleUp
+              onClick={MoveToTop}
+              className="cursor-pointer transform transition duration-500 hover:scale-125 hover:shadow-xl shadow-xl"
+              size="28"
             />
           </div>
         )}
