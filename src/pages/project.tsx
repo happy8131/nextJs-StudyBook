@@ -16,7 +16,6 @@ const Projects = ({ studys }: any) => {
     const len = studys.results.length - page;
 
     const handleScroll = async () => {
-      // eslint-disable-next-line sonarjs/no-collapsible-if
       if (
         window.scrollY + document.documentElement.clientHeight >
         document.documentElement.scrollHeight - 90
