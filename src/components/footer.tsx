@@ -37,7 +37,7 @@ const Footer = () => {
                 깃헙
               </a>
             </Link>
-            <Link href="https://happy8131.tistory.com/">
+            <Link href="https://github.com/happy8131/nextJs-StudyBook">
               <a target="_blank" className="ml-3 text-gray-500">
                 블로그
               </a>
