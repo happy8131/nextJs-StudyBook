@@ -32,12 +32,12 @@ const Footer = () => {
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <Link href="https://github.com/happy8131/">
+            <Link href="https://github.com/happy8131/nextJs-StudyBook">
               <a target="_blank" className="ml-3 text-gray-500">
                 깃헙
               </a>
             </Link>
-            <Link href="https://github.com/happy8131/nextJs-StudyBook">
+            <Link href="https://happy8131.tistory.com/">
               <a target="_blank" className="ml-3 text-gray-500">
                 블로그
               </a>
