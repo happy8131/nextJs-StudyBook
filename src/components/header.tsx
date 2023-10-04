@@ -26,9 +26,13 @@ const Header = () => {
             <Link href="/">
               <a className="mr-5 hover:text-gray-900">홈</a>
             </Link>
-
             <Link href="/project">
               <a className="mr-5 hover:text-gray-900">스터디Book</a>
+            </Link>
+            <Link href="https://nwitter-48f6e.web.app/">
+              <a target="_blank" className="mr-5 hover:text-gray-900">
+                문의하기
+              </a>
             </Link>
             <Link href="https://happy8131.tistory.com/">
               <a target="_blank" className="mr-5 hover:text-gray-900">
