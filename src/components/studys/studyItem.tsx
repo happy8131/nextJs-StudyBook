@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const StudyItem = ({ data }: any) => {
-  const studyTitle = data.properties.name.title[0].plain_text;
-  const blogLink = data.properties.blog.rich_text[0].plain_text;
+  const studyTitle = data.properties?.name.title[0].plain_text;
+  const blogLink = data.properties?.blog.rich_text[0].plain_text;
   const description = data.properties.description.rich_text[0].plain_text;
   const tag = data.properties?.tag.multi_select;
   const imgSrc = data.cover.file.url || data.cover.external.url;
