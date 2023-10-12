@@ -22,7 +22,7 @@ export default function Home() {
               추가적인 기능 넣어서 만들었습니다. 토이 프로젝트나 스터디 문의가
               있으시면 문의하기로 남겨주세요!
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
               <Link href="/project">
                 <a className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                   스터디 Book
