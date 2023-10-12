@@ -20,7 +20,7 @@ export default function Home() {
               현재 프로젝트에 올릴 계획입니다. 도움이 됐으면 좋겠습니다." " 위에
               문의하기 버튼 누르면 Firebase로 만든 Clone프로젝트가 있는데
               추가적인 기능 넣어서 만들었습니다. 토이 프로젝트나 스터디 문의가
-              있으시면 문의하기로 남겨주세요!
+              있으시면 문의하기로 남겨주세요!.
             </p>
             <div className="flex justify-center ">
               <Link href="/project">
