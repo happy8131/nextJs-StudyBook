@@ -21,7 +21,7 @@ const StudyItem = ({ data }: any) => {
         objectFit="cover"
         quality={100}
       />
-      <div className="p-4 flex flex-col ">
+      <div className="p-4 flex flex-col">
         <h1 className="text-2xl font-bold">{studyTitle}</h1>
         <h3 className="mt-4 text-xl">{description?.slice(0, 20)}...</h3>
         <a href={detail} target="_blank">
